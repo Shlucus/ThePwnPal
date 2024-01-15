@@ -1,8 +1,10 @@
 # The RaspberryPwn
 Creating a mobile and pocket-sized pentesting device with a Raspberry Pi and Kali Linux.
 
+<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/64efbb53-0365-4830-b113-457003016eb0" alt="Board (Bottom)" width="350">
+
 ## Overview
-This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on the go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also hotplug attacks as its compact size allows for easy 
+This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on the go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also hotplug attacks thanks to its small size and ability to remotely connect to it through Secure Shell (SSH). 
 
 ## Features
 - <ins>Raspberry Pi Integration</ins>: Utilizes the Raspberry Pi for its compact size and portability.
