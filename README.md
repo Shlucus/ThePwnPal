@@ -1,5 +1,5 @@
 # The 𝙿𝚠𝚗Pal
-Creating a mobile and pocket-sized pentesting device with a Raspberry Pi.
+Creating a standalone and pocket-sized pentesting device for on-the-go ethical hacking proceedures.
 
 ![PwnPalVideo](https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/91bd21b6-0313-4845-b054-f70913245827)
 
@@ -11,9 +11,11 @@ Creating a mobile and pocket-sized pentesting device with a Raspberry Pi.
 
    
 ## Overview
-This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on the go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and run commands from anywhere in the world. 
-<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/64efbb53-0365-4830-b113-457003016eb0" alt="Board (Bottom)" width="350">
-<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/e62416a4-3cce-4178-b67d-30201339737b" alt="Board (Bottom)" width="230">
+This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on the go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and monitor network traffic by running commands from anywhere in the world. 
+<br>
+<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/f612bb55-2c71-42b9-aee7-ae2f6df4076d" alt="PwnPal Pic" width="350">
+<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/35e0eb22-1a37-4aa8-b60c-8be9987f23c0" alt="PwnPal GIF" width="350">
+
 
 ## Features
 - <ins>Raspberry Pi Integration</ins>: Utilizes the Raspberry Pi for its compact size and portability.
@@ -21,14 +23,14 @@ This project transforms a Raspberry Pi into a portable penetration testing devic
 - <ins>Integrated Display:</ins> Compact touchscreen display for improved user interface.
 - <ins>Extensive range:</ins> Supports both 2.4 Ghz and 5 Ghz bands with packet injection and monitor mode.
 - <ins>Mobile Accessibility:</ins> Conduct security assessments and penetration tests from a stealthy handheld device.
-- <ins>Kali Linux:</ins> Pre-configured with Kali Linux tools for a comprehensive penetration testing environment.
+- <ins>Kali Linux:</ins> Configured with Kali Linux tools for a comprehensive penetration testing environment.
 
 ## Components
 
 | Component         | Purchase Link                                                                                               | Image                                                                                                                                                      |
 |-------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Board             | [Raspberry Pi 4 Model B (8GB)](https://www.amazon.ca/Raspberry-Pi-Model-Bluetooth-Enabled/dp/B09TTKT94J/ref=sr_1_11?keywords=Raspberry+pi+4&sr=8-11&ufe=app_do%3Aamzn1.fos.b06bdbbe-20fd-4ebc-88cf-fa04f1ca0da8) |   <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/8dc0354c-b954-46d2-bd63-9412a2e3605d" alt="Board" width="350">                     |
-| Display           | [Waveshare 3.5inch Touch Screen RPi LCD (C)](https://www.waveshare.com/3.5inch-rpi-lcd-c.htm)             |   <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/f7338ae7-e87a-496b-bdb3-3976ddd19736" alt="Display (Top)" width="250"><img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/2f5d04aa-55be-41dc-9495-2dd5e4008d78" alt="Board (Bottom)" width="250"> |
+| Display           | [Waveshare 3.5inch Touch Screen RPi LCD (C)](https://www.waveshare.com/3.5inch-rpi-lcd-c.htm)             |   <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/f7338ae7-e87a-496b-bdb3-3976ddd19736" alt="Display (Top)" width="250"><img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/2f5d04aa-55be-41dc-9495-2dd5e4008d78" alt="Display (Bottom)" width="250"> |
 | Battery           | [PiSugar S Plus](https://www.tindie.com/products/pisugar/pisugar-s-plus-battery-for-raspberry-pi-3b3b4b/) |   <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/ab007f11-0f02-4b0c-b28e-bb038a390f64" alt="Battery" width="300">                      |
 | Network Adapter   | [ALPHA AWUS036ACS](https://www.amazon.ca/ALFA-NETWORK-AWUS036ACS-Alfa-Adapter/dp/B0752CTSGD/ref=sr_1_2?keywords=ALPHA+AWUS036ACS&sr=8-2) |   <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/aa81f1ed-4bd0-4201-b2ae-de06449dceaa" alt="ALPHA Adapter" width="250">                     |
 | Heatsink (optional) | [Aluminum Alloy Cooling Case by WEIYIXING](https://www.amazon.ca/dp/B0BBPPYV76?ref=ppx_yo2ov_dt_b_product_details&th=1)      |    <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/3d8a635f-773b-4cfe-8487-ec58db65ffed" alt="Heatsink" width="250">                             |
@@ -56,9 +58,9 @@ Due to the Waveshare screen's simple design, installing the screen is as simple 
 
  - Note: If using the Heatsink mentioned in the 'Components' section, the aluminum will interfere with the screen's own components on the underside. This will prevent the screen from sitting flush against the device. To fix this, you can either alter the heatsink directly by reducing its surface, or like I did, make supports on the corners of the screen between the heatsink with adhesive putty. (Ensures stability and keep the screen glued to the device)
 
-<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/90756a6b-c6ad-4068-be0c-bb6cd0749652" alt="Board Bottom)" width="300">
-<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/4d4fd66e-8615-431e-9833-ef367741ab30" alt="Board (Bottom)" width="300">
-<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/6d1af7e1-6128-46de-85c4-ae6942a8f37a" alt="Board (Bottom)" width="300">
+<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/90756a6b-c6ad-4068-be0c-bb6cd0749652" alt="Board Side1" width="300">
+<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/4d4fd66e-8615-431e-9833-ef367741ab30" alt="Board Side2" width="300">
+<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/6d1af7e1-6128-46de-85c4-ae6942a8f37a" alt="Board Angle" width="300">
 
 Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white, this is normal. We have yet to install the drivers for the Pi to communicate with it. 
  - Note: The Waveshare offical drivers for this screen will NOT work! For some reason the drivers have a hard time working for with 64Bit Kali OS.
