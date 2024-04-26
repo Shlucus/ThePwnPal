@@ -8,7 +8,6 @@ Creating a standalone and pocket-sized pentesting device for on-the-go ethical h
  - [Features](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#features)
  - [Components](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#components)
  - [Guide](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#guide)
-
    
 ## Overview
 This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on the go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and monitor network traffic by running commands from anywhere in the world. 
@@ -56,15 +55,16 @@ Make sure you have:
 
 Due to the Waveshare screen's simple design, installing the screen is as simple as plugging it's female GPIO ports directly to the Pi's GPIO pins. If done correctly, the screen should rest on top of the the Pi's USB 2.0 and 3.0 USB ports.
 
- - Note: If using the Heatsink mentioned in the 'Components' section, the aluminum will interfere with the screen's own components on the underside. This will prevent the screen from sitting flush against the device. To fix this, you can either alter the heatsink directly by reducing its surface, or like I did, make supports on the corners of the screen between the heatsink with adhesive putty. (Ensures stability and keep the screen glued to the device)
+> [!TIP]
+> If using the Heatsink mentioned in the 'Components' section, the aluminum will interfere with the screen's own components on the underside. This will prevent the screen from sitting flush against the device. > > To fix this, you can either alter the heatsink directly by reducing its surface, or like I did, make supports on the corners of the screen between the heatsink with adhesive putty. (Ensures stability and keep > the screen glued to the device)
 
 <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/90756a6b-c6ad-4068-be0c-bb6cd0749652" alt="Board Side1" width="300">
 <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/4d4fd66e-8615-431e-9833-ef367741ab30" alt="Board Side2" width="300">
 <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/6d1af7e1-6128-46de-85c4-ae6942a8f37a" alt="Board Angle" width="300">
 
 Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white, this is normal. We have yet to install the drivers for the Pi to communicate with it. 
- - Note: The Waveshare offical drivers for this screen will NOT work! For some reason the drivers have a hard time working for with 64Bit Kali OS.
-
+> [!NOTE]  
+> The Waveshare offical drivers for this screen will NOT work! For some reason the drivers have a hard time working for with 64Bit Kali OS.
 
 To do so (either through Secure Shell (SSH) or through HDMI), run the following on your Pi:
   - Make sure your Pi is connected to internet!
@@ -84,7 +84,8 @@ This should reboot your Pi and finally have the screen working!
 First, make sure to unplug the battery from the PiSugar (JST PH 2.0 connector)
 
 Then, take the four M2.5 screws provided from the PiSugar S Plus and screw it in from the Underside of the Pi like so:
- - Note: If using Heatsink, use the case's/heatsink's M2.5 screws INSTEAD, since they are longer and will allow to screw in both the battery and Heatsink at the same time.
+> [!NOTE]  
+> If using Heatsink, use the case's/heatsink's M2.5 screws INSTEAD, since they are longer and will allow to screw in both the battery and Heatsink at the same time.
 
 <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/9fef0136-21a9-4e96-9d45-e45975c70587" alt="Bottom" width="500">
 
