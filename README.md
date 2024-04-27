@@ -14,8 +14,15 @@
     <img src="https://img.shields.io/badge/Hack-The%20Planet-orange" alt="Hack the planet" height=24>
     <img src="https://img.shields.io/badge/Version-1.1-lightblue" alt="Version 1.1" height=24>
   </a>
+
+<div align="center">
+ 
+   [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/shlucus)
+</div>
 </h3>
 </div>
+
+
 
 
 ## 📚 Table of Contents:
