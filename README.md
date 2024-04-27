@@ -82,8 +82,9 @@ Due to the Waveshare screen's simple design, installing it is as simple as plugg
  <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/4d4fd66e-8615-431e-9833-ef367741ab30" alt="Board Side2" width="300">
  <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/6d1af7e1-6128-46de-85c4-ae6942a8f37a" alt="Board Angle" width="300">
 </div>
-Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white, this is normal. We have yet to install the drivers for the Pi to communicate with it. 
-> [!NOTE]  
+Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white, this is normal. We have yet to install the drivers for the Pi to communicate with it
+
+>[!NOTE]  
 > The Waveshare offical drivers for this screen will NOT work! For some reason the drivers have a hard time working for with 64Bit Kali OS.
 
 To do so (either through Secure Shell (SSH) or through HDMI), run the following on your Pi:
