@@ -17,7 +17,8 @@
 
 <div align="center">
  
-   [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/shlucus)
+   [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/Shlucus)
+   
 </div>
 </h3>
 </div>
