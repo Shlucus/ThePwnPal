@@ -5,24 +5,24 @@
   ![PwnPalVideo_Banner](https://github.com/Shlucus/ThePwnPal/assets/111912000/ceb6b3aa-dacb-4e9c-8449-2380e0ed763e)
   
   <hr>
-
   <h3 align="center">
  Creating a standalone and pocket-sized pentesting device for on-the-go ethical hacking proceedures. <br><br>
   <a href="#">
     <img src="https://awesome.re/badge.svg" alt="Awesome" height=24>
-    <img src="https://img.shields.io/badge/Powered%20by-Raspberry%20Pi-c01355" alt="Powered by dolphins" height=24>
-    <img src="https://img.shields.io/badge/Developped%20by-Shlucus-brightgreen" alt="Approved by Lurat" height=24 title="Lurat is the name of my Flipper">
+    <img src="https://img.shields.io/badge/Powered%20by-Raspberry%20Pi-c01355" alt="Powered by Raspberry Pi" height=24>
+    <img src="https://img.shields.io/badge/Developed%20by-Shlucus-brightgreen" alt="Developed by Shlucus" height=24 title="Developer of this project">
     <img src="https://img.shields.io/badge/Hack-The%20Planet-orange" alt="Hack the planet" height=24>
+    <img src="https://img.shields.io/badge/Version-1.1-lightblue" alt="Version 1.1" height=24>
   </a>
 </h3>
 </div>
 
 
 ## 📚 Table of Contents:
- - [Overview](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#overview)
+ - [Overview](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-overview)
  - [Features](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#features)
  - [Components](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#components)
- - [Guide](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#guide)
+ - [Guide](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-guide)
    
 ## 📝 Overview
 This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on the go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and monitor network traffic by running commands from anywhere in the world. 
