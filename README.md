@@ -20,9 +20,9 @@
 
 ## 📚 Table of Contents:
  - [Overview](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-overview)
- - [Features](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#features)
- - [Components](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#components)
- - [Guide](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-guide)
+ - [Features](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-features)
+ - [Components](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-components)
+ - [Guide](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#%EF%B8%8F-guide)
    
 ## 📝 Overview
 This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on the go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and monitor network traffic by running commands from anywhere in the world. 
