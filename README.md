@@ -33,7 +33,7 @@
  - [Guide](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#%EF%B8%8F-guide)
    
 ## 📝 Overview
-This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on the go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and monitor network traffic by running commands from anywhere in the world. 
+This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on-the-go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and monitor network traffic by running commands from anywhere in the world. 
 <br>
 
 <div align="center">
@@ -66,7 +66,7 @@ This project transforms a Raspberry Pi into a portable penetration testing devic
    
 ### Step 1: Flashing Kali Linux
 
-The first thing to do is flash the Kali Linux ARM image into your designated Micro SD. Any Imaging software can be used however I suggest the offical [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
+The first thing to do is flash the Kali Linux ARM image into your designated Micro SD. Any Imaging software can be used (I suggest the offical [Raspberry Pi Imager](https://www.raspberrypi.com/software/)).
 You can download the Kali Linux ARM image here -> [Kali Linux ARM](https://www.kali.org/get-kali/#kali-arm)
 
 Make sure you have:
@@ -80,7 +80,7 @@ Make sure you have:
 
 ### Step 2: Installing LCD Display
 
-Due to the Waveshare screen's simple design, installing it is as simple as plugging it's female GPIO ports directly to the Pi's GPIO pins. If done correctly, the screen should rest on top of the the Pi's USB 2.0 and 3.0 USB ports.
+Due to the Waveshare screen's simple design, installing it is as easy as plugging it's GPIO ports directly to the Pi's GPIO pins. If done correctly, the screen should rest on top of the the Pi's USB 2.0 and 3.0 USB ports.
 
 > [!TIP]
 > If using the Heatsink mentioned in the 'Components' section, the aluminum will interfere with the screen's own components on the underside. This will prevent the screen from sitting flush against the device.  To fix this, you can either alter the heatsink directly by reducing its surface, or like I did, make supports on the corners of the screen between the heatsink with adhesive putty. (Ensures stability and keep  the screen glued to the device)
@@ -90,10 +90,10 @@ Due to the Waveshare screen's simple design, installing it is as simple as plugg
  <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/4d4fd66e-8615-431e-9833-ef367741ab30" alt="Board Side2" width="300">
  <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/6d1af7e1-6128-46de-85c4-ae6942a8f37a" alt="Board Angle" width="300">
 </div>
-Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white, this is normal. We have yet to install the drivers for the Pi to communicate with it
+Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white (this is normal). We have yet to install the drivers for the Pi to communicate with it
 
 >[!NOTE]  
-> The Waveshare offical drivers for this screen will NOT work! For some reason the drivers have a hard time working for with 64Bit Kali OS.
+> The official Waveshare drivers for this screen will NOT work! They have a hard time working with 64Bit Kali OS.
 
 To do so (either through Secure Shell (SSH) or through HDMI), run the following on your Pi:
   - Make sure your Pi is connected to internet!
