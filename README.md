@@ -6,7 +6,7 @@
   
   <hr>
   <h3 align="center">
- Creating a standalone and pocket-sized pentesting device for on-the-go ethical hacking proceedures. <br><br>
+ Creating a standalone and pocket-sized pentesting device for on-the-go ethical hacking procedures. <br><br>
   <a href="#">
     <img src="https://awesome.re/badge.svg" alt="Awesome" height=24>
     <img src="https://img.shields.io/badge/Powered%20by-Raspberry%20Pi-c01355" alt="Powered by Raspberry Pi" height=24>
